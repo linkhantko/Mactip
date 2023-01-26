@@ -1,0 +1,21 @@
+Download PostgreSQL to your Mac from 
+https://www.postgresql.org/download/
+
+
+Then go php.ini file and remove the “;” in front of each:
+
+php.ini file location : Application/xampp/etc/php.ini
+
+;extension=pdo_pgsql
+;extension=pgsql
+
+
+# Using POSTGRES in Laravel
+
+DB_CONNECTION=pgsql
+DB_HOST=127.0.0.1
+DB_PORT=5432
+DB_DATABASE=database_name
+DB_USERNAME=postgres
+DB_PASSWORD=your_choosen_password
+
